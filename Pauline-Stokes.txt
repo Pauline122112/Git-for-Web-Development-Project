@@ -10,9 +10,18 @@ Is a way to provide additional information to the webpage.
     4. What is the h1 tag used for? How many times should I use it on a page?
     An h1 tag is the title of the page and should only be used for the title.
 
-    5. Name two tags that have required attributes
-    6. What do we put in the head of our HTML document? 
+    5. Name two tags that have required attributes:
+        -src 
+        -alt 
+    6. What do we put in the head of our HTML document?
+    Usually, the head of the HTML document will contain information about 
+    the specifics of the webpage and links to other files. Examples of 
+    information found in the head are meta tags, title and javascript code.
+
     7. What is an id? 
+    An id is an attribute which provides a way to identify an element.
+
+    
     8. What elements can I add an id to? 
     9. How many times can I use the same id on a page? 
     10. What is a class? 
