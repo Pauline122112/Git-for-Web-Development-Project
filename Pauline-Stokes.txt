@@ -44,8 +44,11 @@ Is a way to provide additional information to the webpage.
 
     15. How do I reference an id?
     You have to write a # character followed by id to specify the id attribute within CSS. 
+
+    16. What is the difference between a section and a div?
+    Section is where the content inside is grouped and is typically generic.
+    A div can you be used to group elements for styling purposes. 
     
-    16. What is the difference between a section and a div
     17. What is CSS used for? 
     18. How to we select an element? Example - every h2 on the page
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
