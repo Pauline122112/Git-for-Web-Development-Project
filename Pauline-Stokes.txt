@@ -54,8 +54,20 @@ Is a way to provide additional information to the webpage.
     A div can you be used to group elements for styling purposes. 
 
     17. What is CSS used for? 
+    Cascading Style sheets are used for styling a webpage. 
+
     18. How to we select an element? Example - every h2 on the page
-    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    Element selector should be a tag name that does not require brackets or other symbols. 
+
+    19. What is the difference between a class and an id? - Give me an example of when 
+    I might use each one:
+    Id is used to identify one single element where as a class can be used multiple times to identify
+    more then one element.
+    For example an id can be identified through:
+    <div id="header">text</div>
+    Whereas, a class can be used more then once:
+    <div class="image"></div>
+
     20. How do we select classes in CSS?
     21. How do we select a p element with a single class of “human””?
     22. What is a parent child selector? When would this be useful? 
