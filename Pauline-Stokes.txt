@@ -106,12 +106,50 @@ Is a way to provide additional information to the webpage.
     You can write comments in CSS by using /* */.
 
     31. How do I find out what file I am in, when I am using the command line? 
+    Type "pwd" into the command line and press enter. 
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    Type "ls" into the command line and press enter. 
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    Use "rm" or "unlink"  to remove a file. You have to be careful about removing a file because once it's deleted, it can't be easily recovered. 
+
     34. Why should I use version control? 
+    We should use version control to keep track of changes. 
+
     35. How often should I commit to github?
+    Every 20 minutes. 
+
     36. What is the command we would use to push our repo up to github? 
+    git push -u origin BRANCH-NAME or git push after is has been pushed to branch the first time. 
+
     37. Walk me through Lambda's git flow. 
+    1- Fork Lambda School Repo on Github.
+    2-Clone the forked Repo using githubs 'Clone or download' button.
+    3-On command line, use the cd command to go to the directory where you would like to clone the forked Repo.
+    4-Use git clone <link-to-repo> command to clone the forked repo to the directory you are in. 
+    5-cd into the newly created repo using cd<repo-name> command.
+    6-Create a branch by using git checkout -b 'firstname-lastname' command. This is where you will work on your repo and start getting ht eproject assignment done. 
+    7-If you have added and created changes on your branch, you must do the following in order for your code to be saved in Github:
+        -git add .  (adds repo changes and makes them ready for commit)
+        -git commit -m "helpful message" (informs other developers and can also explain the changes you've added to the repo that you are committing)
+        -git push -u origin 'firstname-lastname'. This will push all your commits from your local machine up to github. Remember the 'firstname-lastname' will be whatever name you specified when you did git checkout -b 
+
+    8-Once the changes have been pushed up to github, you can now submit a PR (Pull Request)
+        a: Got to forked project on github (make sure it is the forked copy and not the orignal copy)
+        b:Click Branch:master button which is located to the left of the "New pull request" button.
+        c: In the dropdown menu, select your firstname-lastname branch.
+        d: Click on your firstname-lastname branch and then click on "New pull request" button so that you can
+        make a pull request on your firstname-lastname branch. 
+        e: You should be redirected to the pull request page (PR page).
+        f:On the PR page, click the dropdown button that says "base repository" and change it to your "forked repo" 
+        instead of the original repo. 
+        g: After changing the base repository, you should be see "Able to merge" with a tick, highlighted in green. 
+        This means it is ready to create a pull request so press the "Create pull request" at the bottom of the page.
+        h: If there are no conflicting issues then your pull request will remain open until it is either merged with 
+        other branches or it is closed. 
+
+        THE END!
 
 Stretch Questions
 
