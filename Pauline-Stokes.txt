@@ -1,11 +1,15 @@
 1. What is Semantic HTML? 
 Is a way to provide additional information to the webpage.
- 
+
     2. What is HTML used for? 
     Hypertext Markup Language is used to create and structure a website. 
     
     3. What is an attribute and where do we put it? 
+    An attribute provides information in regards to elements.
+
     4. What is the h1 tag used for? How many times should I use it on a page?
+    An h1 tag is the title of the page and should only be used for the title.
+
     5. Name two tags that have required attributes
     6. What do we put in the head of our HTML document? 
     7. What is an id? 
